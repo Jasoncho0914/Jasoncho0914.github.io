@@ -93,7 +93,7 @@ blockquote {
 // Profile
 
 .profile {
-  margin-left: 1rem;
+  margin-right: 1rem;
   width: 100%;
 
   .address {
@@ -296,11 +296,11 @@ footer.sticky-bottom {
 
 .cv {
   margin-bottom: 40px;
-  
+
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
-    
+
     .list-group-item {
       background-color: inherit;
 
@@ -415,33 +415,30 @@ footer.sticky-bottom {
 .projects {
   a {
     text-decoration: none;
-
     &:hover {
       .card-title {
         color: var(--global-theme-color);
       }
     }
   }
+  h3 {
+    font-size: 1.5rem;
+  }
 
   .card {
+    text-align: left;
     img {
       width: 100%;
     }
   }
 
   .card-item {
-    width: auto;
+    width: 100;
     margin-bottom: 10px;
-
     .row {
       display: flex;
       align-items: center;
     }
-  }
-
-  .grid-sizer, .grid-item {
-    width: 250px;
-    margin-bottom: 10px;
   }
 
   h2.category {
@@ -454,26 +451,78 @@ footer.sticky-bottom {
   }
 }
 
+// Teaching
+.teaching {
+  margin-top: 2rem;
+  h1 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 1em;
+  }
+  h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    .span{
+      padding: 4px;
+    }
+  }
+  table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  }
+
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    font-size: 1.1rem;
+  }
+
+
+  tr:nth-child(1) {
+    background-color: $grey-color;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 1rem;
+  }
+}
 
 // Publications
 
 .publications {
   margin-top: 2rem;
   h1 {
-    color: var(--global-theme-color);
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
     margin-top: 1em;
     margin-bottom: 1em;
   }
   h2 {
-    margin-bottom: 1rem;
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1rem;
     span {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
+      a{
+        color: var(--global-hover-color);
+          &:hover {
+            color: var(--global-hover-color);
+            text-decoration: underline;
+          }
+      }
     }
   }
   h2.year {
-    color: var(--global-divider-color);
+    color: var(--global-year-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;

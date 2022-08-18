@@ -1,25 +1,31 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Ph.D. Student in <a href='https://stat.cornell.edu'>Statistics at Cornell University</a>.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>bc454[at]cornell[dot]edu<p>
+    <p>1173 Comstock Hall</p>
+    <p>Ithaca, NY 14853</p>
+    <p><a href = "assets/pdf/cvJasoncho_20220817.pdf" target="_blank"> Curriculum vitae </a></p>
+    <p>[updated August 17, 2022]</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a second year Ph.D. student in Statistics and Data Science at Cornell University. I also completed both of my Master of Science in Animal Science and Bachelor of Arts in Statistics at Cornell University.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+For my Masters, I specialized in Precision Agriculture and was advised by professor <a href='http://nmsp.cals.cornell.edu/about/bios/quirine.html'> Quirine M. Ketterings</a>, <a href='http://guinness.cals.cornell.edu/'> Joe Guinness</a> and <a href='https://www.rit.edu/directory/jvacis-jan-van-aardt'> Jan van Aardt</a>. We closely worked with large dairy farms in New York in conducting various on-farm research trials. My research focused on analyzing yield monitor data, geo-referenced data on crop yield, in order to develop statistical tools to help farmers in making better nutrient management decision.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I also worked as a data analyst at Cornell Statistical Consulting Unit (CSCU) for 6 months, where I helped researchers around Cornell in performing data analysis for their research.
+
+Currently, I am exploring various research areas in statistics with broad interest in financial statistics and time-series analysis. This summer, I worked with Professor David S. Matteson and Sven Serneels in analyzing <a href = 'https://doi.org/10.7298/6jcj-9461'>NFT transactions data </a> and wrote a data note exploring various peculiarities about the data.
+
+I am also actively looking for an internship position for Summer 2023.
