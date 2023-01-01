@@ -4,11 +4,25 @@ permalink: /publications/
 title: Research
 years_ag: [2021]
 years_hci: [2021]
+years_nft: [2023]
 nav: true
 nav_order: 1
 ---
 <!-- _pages/publications.md -->
 <div class="publications">
+<div class="agronomy">
+<h1 class="sub_title">Non Fungible Tokens</h1>
+<h2 class="post-description">
+  <span>
+  I am currently working with Sven Serneels from Gallop Inc. in analyzing NFT market.
+  </span>
+</h2>
+{%- for y in page.years_nft %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f NFT -q @*[year={{y}}]* %}
+{% endfor %}
+</div>
+
 <div class="agronomy">
 <h1 class="sub_title">Precision Agriculture</h1>
 <h2 class="post-description">
