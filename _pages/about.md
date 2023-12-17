@@ -13,7 +13,7 @@ profile:
     <p>1173 Comstock Hall</p>
     <p>Ithaca, NY 14853</p>
     <p><a href = "assets/pdf/cvJasoncho_12162023.pdf" target="_blank"> Curriculum vitae </a></p>
-    <p>[updated January 1, 2023]</p>
+    <p>[updated 12 16, 2023]</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
