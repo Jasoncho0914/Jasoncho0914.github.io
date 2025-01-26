@@ -9,7 +9,7 @@ navbar:
       href: index.html
     - text: "Publications"
       href: publications.html
-    - text: "Packages"
+    - text: "Software"
       href: packages.html
     - text: "Teaching/Awards"
       href: teaching.html

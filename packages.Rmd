@@ -1,5 +1,5 @@
 ---
-title: "Packages"
+title: "Software"
 output:
   distill::distill_article
 ---
@@ -34,7 +34,7 @@ d-article li {
   margin: 0 0em;
 }
 </style>
-### 1. **BASTION**: Bayesian Time-Series Decomposition
+### 1. **BASTION**: Bayesian Time-Series Decomposition (R-package)
 ```{r datasim, echo = FALSE}
 # arguments for figures:
 cex_s = 0.8
