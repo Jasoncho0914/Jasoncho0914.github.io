@@ -1,0 +1,55 @@
+---
+title: " e"
+output:
+  distill::distill_article
+---
+<style>
+d-title{
+  padding-top: 1.5em;
+  padding: 2 0 0em;
+}
+d-title h1{
+  font-size: 0px;
+}
+hr.section-separator{
+  border-top: 0px
+}
+d-article {
+    padding-top: 0em;
+}
+d-article hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+d-article h3 {
+  margin-top: 0.5em; 
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+d-article h4 {
+  font-size: 1em;
+  margin-top: 0em; 
+  margin-bottom: 0em;
+}
+d-article ul {
+    margin-bottom: 0.3em;
+}
+</style>
+### Teaching
+#### Graduate Teaching Assistant
+- **Introduction to Statistics for Biology (STSCI 2150)**  
+  - FA2019, FA2020, SP2021, FA2021, SP2022, FA2022
+- **Engineering Probability and Statistics II (ORIE 3500)**
+  - SP2020
+- **Multivariate Analysis (STSCI 4100)**  
+  - SP2023, SP2024
+- **Linear Models with Matrices (STSCI 4090)**
+  - FA2023, FA2024
+
+---
+
+### Awards
+- **PiTech Siegel PhD Impact Fellowship** (2023)
+- **CALS Outstanding Teaching Assistant Award** (2024)
+- **2024 UPSTAT Conference, Best Student Poster** (2024)
+- **NISS Graduate Student Network Research Conference, Best Student Presentation** (2024)

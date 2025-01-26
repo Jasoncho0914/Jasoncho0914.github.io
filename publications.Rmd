@@ -1,0 +1,56 @@
+---
+title: "Publications"
+output:
+  distill::distill_article
+---
+<style>
+d-title{
+    padding: 2rem 1 1.5rem;
+}
+d-article {
+    padding-top: 0em;
+}
+d-title h1 {
+  margin-bottom: 0em;
+  font-size: 2.25em;
+}
+d-article h3 {
+  margin-top: 1em; 
+  margin-bottom: 1em;
+}
+d-article h4 {
+  margin-top: 0em; 
+  margin-bottom: 0em;
+}
+</style>
+### Bayesian Time-Series Analysis
+
+#### Preprints
+```{r, echo=FALSE, results='asis'}
+# Load necessary libraries
+library(knitr)
+library(bibtex)
+# Read the bibliography file
+bib_file <- "bibliography/bayesian.bib"
+# Use bibtex::read.bib to parse the file
+mybib <- RefManageR::ReadBib(bib_file)
+print(mybib)
+```
+
+### Precision Agriculture
+```{r, echo=FALSE, results='asis'}
+# Read the bibliography file
+bib_file <- "bibliography/agronomy.bib"
+# Use bibtex::read.bib to parse the file
+mybib <- RefManageR::ReadBib(bib_file)
+print(mybib)
+```
+
+### Digital Technologies
+```{r, echo=FALSE, results='asis'}
+# Read the bibliography file
+bib_file <- "bibliography/IoT.bib"
+# Use bibtex::read.bib to parse the file
+mybib <- RefManageR::ReadBib(bib_file)
+print(mybib)
+```
