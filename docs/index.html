@@ -712,6 +712,22 @@ document.addEventListener('DOMContentLoaded', function(e) {
             <li>B.A. in Statistics and Data Science | August 2011 - May
             2018</li>
             </ul>
+            <script>
+            document.addEventListener("DOMContentLoaded", function() {
+              // This selects the first <img> that has class="rounded"
+              const headerImg = document.querySelector("img.rounded");
+
+              // Make sure we actually found one
+              if (headerImg) {
+                // 10% chance to switch to the silly image
+                if (Math.random() < 0.1) {
+                  headerImg.src = "images/silly.jpeg";
+                } else {
+                  headerImg.src = "images/prof_pic.jpg";
+                }
+              }
+            });
+            </script>
             </div>
           </div>
         </div>
@@ -785,6 +801,22 @@ document.addEventListener('DOMContentLoaded', function(e) {
               <li>B.A. in Statistics and Data Science | August 2011 -
               May 2018</li>
               </ul>
+              <script>
+              document.addEventListener("DOMContentLoaded", function() {
+                // This selects the first <img> that has class="rounded"
+                const headerImg = document.querySelector("img.rounded");
+
+                // Make sure we actually found one
+                if (headerImg) {
+                  // 10% chance to switch to the silly image
+                  if (Math.random() < 0.1) {
+                    headerImg.src = "images/silly.jpeg";
+                  } else {
+                    headerImg.src = "images/prof_pic.jpg";
+                  }
+                }
+              });
+              </script>
               </div>
             </div>
         </div>

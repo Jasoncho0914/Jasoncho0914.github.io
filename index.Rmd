@@ -29,3 +29,23 @@ I am a fourth-year Ph.D. student in Statistics at the Department of Statistics a
 - B.A. in Statistics and Data Science | August 2011 - May 2018
 
 
+```{r setup-random-image, echo=FALSE, results='asis'}
+cat('
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // This selects the first <img> that has class="rounded"
+  const headerImg = document.querySelector("img.rounded");
+
+  // Make sure we actually found one
+  if (headerImg) {
+    // 10% chance to switch to the silly image
+    if (Math.random() < 0.1) {
+      headerImg.src = "images/silly.jpeg";
+    } else {
+      headerImg.src = "images/prof_pic.jpg";
+    }
+  }
+});
+</script>
+')
+```
