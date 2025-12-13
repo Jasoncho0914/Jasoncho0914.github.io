@@ -9,16 +9,16 @@ links:
   - label: '`r fontawesome::fa("google-scholar", height = "25px")`'
     url: "https://scholar.google.com/citations?user=BKvvBkAAAAAJ&hl=en&oi=ao"
   - label: "C.V."
-    url: "pdf/cvJasoncho_01252025.pdf"
+    url: "pdf/cvJasoncho_12122025.pdf"
 output:
   postcards::trestles
 site: distill::distill_website
 ---
 ## Bio
-I am a fourth-year Ph.D. student in Statistics at the Department of Statistics and Data Science at Cornell University under Professor  <a href = 'https://stat.cornell.edu/people/faculty/david-s-matteson'> David S. Matteson</a>. My research interest is in Bayesian Time-series Analysis. My recent work includes:
+I am a fifth-year Ph.D. student in Statistics at the Department of Statistics and Data Science at Cornell University under Professor  <a href = 'https://stat.cornell.edu/people/faculty/david-s-matteson'> David S. Matteson</a>. My research interest is in Bayesian Time-series Analysis. My recent work includes:
 
-- <a href = "https://arxiv.org/abs/2408.11315"> Adaptive Stochastic Volatility (ASV)</a>: A novel method for estimating time-varying volatility.
-- <a href="pdf/BASTION_20250124.pdf">BASTION</a>: The first Bayesian method for time-series decomposition providing accurate estimate with robust uncertainty quantification.
+- <a href = "https://arxiv.org/abs/2408.11315"> Adaptive Stochastic Volatility (ASV)</a>: A novel method for estimating time-varying volatility. (**Accepted at Journal of Business and Economic Statistics**)
+- <a href="pdf/BASTION_12122025.pdf">BASTION</a>: The first Bayesian method for time-series decomposition providing accurate estimate with robust uncertainty quantification.
 
 ## Education
 
@@ -29,23 +29,3 @@ I am a fourth-year Ph.D. student in Statistics at the Department of Statistics a
 - B.A. in Statistics and Data Science | August 2011 - May 2018
 
 
-```{r setup-random-image, echo=FALSE, results='asis'}
-cat('
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  // This selects the first <img> that has class="rounded"
-  const headerImg = document.querySelector("img.rounded");
-
-  // Make sure we actually found one
-  if (headerImg) {
-    // 10% chance to switch to the silly image
-    if (Math.random() < 0.1) {
-      headerImg.src = "images/silly.jpeg";
-    } else {
-      headerImg.src = "images/prof_pic.jpg";
-    }
-  }
-});
-</script>
-')
-```

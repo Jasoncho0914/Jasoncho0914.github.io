@@ -24,8 +24,6 @@ d-article h4 {
 }
 </style>
 ### Bayesian Time-Series Analysis
-
-#### Preprints
 ```{r, echo=FALSE, results='asis'}
 # Load necessary libraries
 library(knitr)

@@ -1,5 +1,5 @@
 ---
-title: "Software"
+title: "Packages"
 output:
   distill::distill_article
 ---
@@ -34,7 +34,12 @@ d-article li {
   margin: 0 0em;
 }
 </style>
-### 1. **BASTION**: Bayesian Time-Series Decomposition (R-package)
+### 1. **DSP**: Dynamic Shrinkage Processes 
+This package provides a full, efficient MCMC sampling algorithm for dynamic shrinkage processes (DSPs). DSPs extend popular global-local shrinkage priors, such as the horseshoe prior for sparse signals, to the time series setting by allowing the shrinkage behavior to depend on the history of the shrinkage process. The resulting processes are locally adaptive, which is important for time series data and regression functions with irregular features.
+
+  - **CRAN**: [Link](https://cran.r-project.org/web/packages/dsp/index.html)
+  
+### 2. **BASTION**: Bayesian Time-Series Decomposition
 ```{r datasim, echo = FALSE}
 # arguments for figures:
 cex_s = 0.8
