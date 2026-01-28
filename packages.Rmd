@@ -153,4 +153,4 @@ title(xlab = "Time", cex.lab = cex.lab_s, line = line)
 </div>
   - **GitHub**: [Repository Link](https://jasoncho0914.github.io/BASTION/index.html)
   - **Non-Technical Guide**: [Guide Link](https://jasoncho0914.github.io/BASTION/articles/non-technical_guide.html)
-  - **Preprint**: [Docs Link](paper/BASTION_20250124.pdf)
+  - **Preprint**: [Docs Link](https://arxiv.org/abs/2601.18052)

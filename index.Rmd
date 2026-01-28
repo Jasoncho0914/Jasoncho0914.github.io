@@ -1,6 +1,6 @@
 ---
 title: "Jason B. Cho"
-image: '`r if (runif(1) < 0.05) "images/silly.jpeg" else "images/prof_pic.jpg"`'
+image: "images/prof_pic.jpg"
 links:
   - label: '`r fontawesome::fa("github", height = "25px")`'
     url: "https://github.com/Jasoncho0914"
@@ -29,3 +29,13 @@ I am a fifth-year Ph.D. student in Statistics at the Department of Statistics an
 - B.A. in Statistics and Data Science | August 2011 - May 2018
 
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  if (Math.random() < 0.05) {
+    const img = document.querySelector("img");
+    if (img) {
+      img.src = "images/silly.jpg";
+    }
+  }
+});
+</script>
