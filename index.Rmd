@@ -1,6 +1,6 @@
 ---
 title: "Jason B. Cho"
-image: "images/prof_pic.jpg"
+image: '`r if (runif(1) < 0.05) "images/silly.jpeg" else "images/prof_pic.jpg"`'
 links:
   - label: '`r fontawesome::fa("github", height = "25px")`'
     url: "https://github.com/Jasoncho0914"
@@ -18,7 +18,7 @@ site: distill::distill_website
 I am a fifth-year Ph.D. student in Statistics at the Department of Statistics and Data Science at Cornell University under Professor  <a href = 'https://stat.cornell.edu/people/faculty/david-s-matteson'> David S. Matteson</a>. My research interest is in Bayesian Time-series Analysis. My recent work includes:
 
 - <a href = "https://arxiv.org/abs/2408.11315"> Adaptive Stochastic Volatility (ASV)</a>: A novel method for estimating time-varying volatility. (**Accepted at Journal of Business and Economic Statistics**)
-- <a href="pdf/BASTION_12122025.pdf">BASTION</a>: The first Bayesian method for time-series decomposition providing accurate estimate with robust uncertainty quantification.
+- <a href="https://arxiv.org/abs/2601.18052">BASTION</a>: The first Bayesian method for time-series decomposition providing accurate estimate with robust uncertainty quantification. (**Accepted at AISTATS 2026**)
 
 ## Education
 
