@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
   if (Math.random() < 0.05) {
     const img = document.querySelector("img");
     if (img) {
-      img.src = "images/silly.jpg";
+      img.src = "images/silly.jpeg";
     }
   }
 });
