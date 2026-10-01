@@ -9,24 +9,29 @@ links:
   - label: '`r fontawesome::fa("google-scholar", height = "25px")`'
     url: "https://scholar.google.com/citations?user=BKvvBkAAAAAJ&hl=en&oi=ao"
   - label: "C.V."
-    url: "pdf/cvJasoncho_12122025.pdf"
+    url: "pdf/cvJasoncho_09302026.pdf"
 output:
   postcards::trestles
 site: distill::distill_website
 ---
 ## Bio
-I am a fifth-year Ph.D. student in Statistics at the Department of Statistics and Data Science at Cornell University under Professor  <a href = 'https://stat.cornell.edu/people/faculty/david-s-matteson'> David S. Matteson</a>. My research interest is in Bayesian Time-series Analysis. My recent work includes:
+I am a Postdoctoral Research Fellow at Mayo Clinic. I received my Ph.D.in Statistics at the Department of Statistics and Data Science at Cornell University under Professor  <a href = 'https://stat.cornell.edu/people/faculty/david-s-matteson'> David S. Matteson</a>. 
 
-- <a href = "https://arxiv.org/abs/2408.11315"> Adaptive Stochastic Volatility (ASV)</a>: A novel method for estimating time-varying volatility. (**Accepted at Journal of Business and Economic Statistics**)
-- <a href="https://arxiv.org/abs/2601.18052">BASTION</a>: The first Bayesian method for time-series decomposition providing accurate estimate with robust uncertainty quantification. (**Accepted at AISTATS 2026**)
+My research focuses on Bayesian time-series analysis, uncertainty quantification, and probabilistic forecasting. I also work on interdisciplinary data science problems, with applications in areas including education, precision agriculture and AI measurement.
+
+### Recent Updates
+- **Differential Item Functioning as an Item-Level Diagnostic for LLM Benchmarks** (**NeurIPS 2026**)
+- <a href="https://openreview.net/pdf?id=dZx0R4Cm8d">**Improving Conditional Coverage in Time-Series Foundation Models via Direct Volatility Modeling**</a> (**ICLR 2026 Workshop on Time Series in the Age of Large Models (TSALM)**)
+- <a href="https://arxiv.org/abs/2408.11315">**Adaptive Stochastic Volatility (ASV)**</a> (**Journal of Business & Economic Statistics**)
+- <a href="https://arxiv.org/abs/2601.18052">**BASTION**</a> (**AISTATS 2026**)
 
 ## Education
 
 **Cornell University** | Ithaca, NY
 
-- Ph.D. in Statistics and Data Science | August 2021 - Current
-- M.S in Animal Science | Aug 2019 - Aug 2021
-- B.A. in Statistics and Data Science | August 2011 - May 2018
+- Ph.D. in Statistics and Data Science | Aug 2026
+- M.S in Animal Science | Aug 2021
+- B.A. in Statistics and Data Science | May 2018
 
 
 <script>
